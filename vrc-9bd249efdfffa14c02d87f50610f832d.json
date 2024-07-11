@@ -1,0 +1,20 @@
+{
+  "rdf:type": "VirtualCollections",
+  "ods:id": "https://hdl.handle.net/20.5000.1025/XXX-XXX-XXXX",
+  "ods:version": 1,
+  "dcterms:creator": {
+    "ods:type": "foaf:Person",
+    "ods:id": "https://orcid.org/0000-0002-8686-4154"
+  },
+  "ltc:ObjectGroup": {
+    "ltc:collectionName": "A Third Example Virtual Reference Collection",
+    "ltc:description": "A third example of a virtual reference collection"
+  },
+  "ods:searchFilters": {
+    "filterkey": "id",
+    "filterValue": [
+      "https://www.gbif.org/occurrence/3440078570",
+      "https://www.gbif.org/occurrence/4855019376"
+    ]
+  }
+}
