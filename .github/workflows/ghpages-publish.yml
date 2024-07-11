@@ -1,0 +1,24 @@
+name: Build and Deploy
+on: [push]
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build
+        uses: mikefarah/yq@v4
+        run: |
+          mkdir -p build
+          cd collections
+          for f in *.yml; do ../src/vrc2ods.sh -f $f > ../build/vrc-$(echo $f | md5sum | awk '{print $1}').json; done
+          cd ../build
+          for f in vrc-*.json; do printf '%s' "$f" | jq -Rs '{href: "https://luomus.github.io/vrc/\(.)"}'; done | jq -s '{collections:.}' > index.json
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
