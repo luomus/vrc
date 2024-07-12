@@ -18,8 +18,8 @@ jobs:
           for f in *.yml; do ../src/vrc2ods.sh -f $f > ../build/vrc-$(echo $f | md5sum | awk '{print $1}').json; done
           cd ../build
           for f in vrc-*.json; do printf '%s' "$f" | jq -Rs '{href: "https://luomus.github.io/vrc/\(.)"}'; done | jq -s '{collections:.}' > href.json
-          for f in vrc-*.json; do cat "$f" | jq '."ltc:ObjectGroup"."ltc:collectionName"' | jq -Rs '{name: "\(.)"}'; done | jq -s '{collections:.}' > names.json
-          jq -s names.json href.json '.[0] * .[1]' > index.json
+          for f in vrc-*.json; do cat "$f" | jq -rj '."ltc:ObjectGroup"."ltc:collectionName"' | jq -Rs '{name: "\(.)"}'; done | jq -s '{collections:.}' > names.json
+          jq -n '{collections: [inputs.collections] | transpose | map(add) }' names.json href.json > index.json
           rm names.json href.json
 
       - name: Deploy
