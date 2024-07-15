@@ -1,6 +1,6 @@
 collection:
   name: Another Example Virtual Reference Collection
-  description: >
+  description: >-
     Another example of a virtual reference collection.
 creator:
   orcid: https://orcid.org/0000-0002-8686-4154
