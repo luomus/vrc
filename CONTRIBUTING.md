@@ -44,7 +44,7 @@ questions in the [discussions](https://github.com/luomus/vrc/discussions) sectio
   and extended description if you want.
 - In the lower right hand corner click the green button that says "Create pull request"
 - You should now have sucessfully submitted a new virtual reference collection to the library. A reviewer will look over your
-  proposal and contact you via GitHub if needed. You can use the current page to track the progress of the view and leave
+  proposal and contact you via GitHub if needed. You can use the current page to track the progress of the review and leave
   comments or reply to feedback if needed.
 - Once your new virtual reference collection has passed the review it will be visible in the
   [collection libary](https://luomus.github.io/vrc).
