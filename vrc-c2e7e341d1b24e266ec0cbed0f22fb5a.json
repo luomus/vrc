@@ -8,7 +8,7 @@
   },
   "ltc:ObjectGroup": {
     "ltc:collectionName": "Example Virtual Reference Collection",
-    "ltc:description": "An example of a virtual reference collection.\n"
+    "ltc:description": "An example of a virtual reference collection."
   },
   "ods:searchFilters": {
     "filterkey": "id",
