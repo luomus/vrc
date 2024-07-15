@@ -1,6 +1,7 @@
 collection:
   name: Example Virtual Reference Collection
-  description: An example of a virtual reference collection
+  description: >
+    An example of a virtual reference collection.
 creator:
   orcid: https://orcid.org/0000-0002-8686-4154
 content:
@@ -9,4 +10,3 @@ content:
   - http://id.luomus.fi/MY.7221342
   - http://id.luomus.fi/MY.7895587
   - http://id.luomus.fi/MY.11310160
-  

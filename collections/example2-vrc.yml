@@ -1,6 +1,7 @@
 collection:
   name: Another Example Virtual Reference Collection
-  description: Another example of a virtual reference collection
+  description: >
+    Another example of a virtual reference collection.
 creator:
   orcid: https://orcid.org/0000-0002-8686-4154
 content:
@@ -9,4 +10,3 @@ content:
   - https://www.gbif.org/occurrence/3440078570
   - https://www.gbif.org/occurrence/4855019376
   - https://www.gbif.org/occurrence/4885040730
-  
