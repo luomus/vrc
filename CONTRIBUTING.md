@@ -49,6 +49,6 @@ questions in the [discussions](https://github.com/luomus/vrc/discussions) sectio
 - Once your new virtual reference collection has passed the review it will be visible in the
   [collection libary](https://luomus.github.io/vrc).
 
-Please note that the 'Virtual Reference Collections' project is has a
+Please note that the 'Virtual Reference Collections' project has a
 [Contributor Code of Conduct](https://github.com/luomus/vrc/blob/main/CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its terms.
