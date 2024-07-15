@@ -1,0 +1,14 @@
+collection:
+  name: Replace this text with the name of your virtual reference collection
+  description: >
+    Replace this text with a short description of your 
+    virtual reference collection. 
+creator:
+  orcid: Replace this text with your ORCID identfier in the form of a URL.
+content:
+  reference: id
+  identifiers:
+  - Replace this line and the following lines with digital specimen identifiers.
+  - Each line should contain a single identifier.
+  - You can add as many specimen identifiers as needed.
+  - Each new line should be preceded by two spaces a single dash and a space (i.e., "  - ").
