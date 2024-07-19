@@ -1,13 +1,16 @@
 {
   "collections": [
     {
+      "name": "A Third Example Virtual Reference Collection",
+      "href": "https://luomus.github.io/vrc/vrc-3c1621ebe152ebdf270f704ed6c1b6bb.json"
+    },
+    {
+      "name": "Another Example Virtual Reference Collection",
       "href": "https://luomus.github.io/vrc/vrc-6e30b473f899e74c5c123ebdb02d9bf5.json"
     },
     {
-      "href": "https://luomus.github.io/vrc/vrc-8be1c3ab1c07dac7801e80bec3a430de.json"
-    },
-    {
-      "href": "https://luomus.github.io/vrc/vrc-9bd249efdfffa14c02d87f50610f832d.json"
+      "name": "Example Virtual Reference Collection",
+      "href": "https://luomus.github.io/vrc/vrc-c2e7e341d1b24e266ec0cbed0f22fb5a.json"
     }
   ]
 }
