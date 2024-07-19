@@ -12,7 +12,7 @@ while getopts ":i:v:f::" flag; do
   esac
 done
 
-cat $f | \
+cat "$f" | \
 yq -o=json | \
 jq '
 walk(
