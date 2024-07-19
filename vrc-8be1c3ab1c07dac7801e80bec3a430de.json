@@ -7,14 +7,15 @@
     "ods:id": "https://orcid.org/0000-0002-8686-4154"
   },
   "ltc:ObjectGroup": {
-    "ltc:collectionName": "A Third Example Virtual Reference Collection",
-    "ltc:description": "A third example of a virtual reference collection."
+    "ltc:collectionName": "Example Virtual Reference Collection",
+    "ltc:description": "An example of a virtual reference collection"
   },
   "ods:searchFilters": {
     "filterkey": "id",
     "filterValue": [
-      "https://www.gbif.org/occurrence/3440078570",
-      "https://www.gbif.org/occurrence/4855019376"
+      "http://id.luomus.fi/MY.7221342",
+      "http://id.luomus.fi/MY.7895587",
+      "http://id.luomus.fi/MY.11310160"
     ]
   }
 }
