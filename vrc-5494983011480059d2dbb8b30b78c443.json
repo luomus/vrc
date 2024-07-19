@@ -1,0 +1,22 @@
+{
+  "rdf:type": "VirtualCollections",
+  "ods:id": "https://hdl.handle.net/20.5000.1025/XXX-XXX-XXXX",
+  "ods:version": 1,
+  "dcterms:creator": {
+    "ods:type": "foaf:Person",
+    "ods:id": "https://orcid.org/0000-0002-8610-6855"
+  },
+  "ltc:ObjectGroup": {
+    "ltc:collectionName": "Chachinus doveflies Finland",
+    "ltc:description": "Doveflies of the genus Chachinus. Virtual reference collection includes 23 species identified by collection Curator Hanna Laakkonen. "
+  },
+  "ods:searchFilters": {
+    "filterkey": "id",
+    "filterValue": [
+      "http://id.luomus.fi/LT.420",
+      "http://id.luomus.fi/LT.421",
+      "http://id.luomus.fi/LT.425",
+      "http://id.luomus.fi/LT.427"
+    ]
+  }
+}
