@@ -1,9 +1,9 @@
 collection:
-  name: Chachinus doveflies Finland.yml
+  name: Chachinus doveflies Finland
   description: >-
     Doveflies of the genus Chachinus. Virtual reference collection includes 23 species identified by collection Curator Hanna Laakkonen. 
 creator: Hanna Laakkonen
-  orcid: 0000-0002-8610-6855
+  orcid: https://orcid.org/0000-0002-8610-6855
 content:
   reference: id
   identifiers:
