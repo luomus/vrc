@@ -1,0 +1,11 @@
+collection:
+  name: Lepidoptera in amber Luomus.yml
+  description: >-
+    Ca. 400 specimens from the Baltic region. 
+creator:
+  orcid: XXXX-RRRRR
+content:
+  reference: id
+  identifiers:
+  - http://id.luomus.fi/KF.11226
+  - http://id.luomus.fi/KF.8079
