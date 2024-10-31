@@ -1,0 +1,20 @@
+{
+  "rdf:type": "VirtualCollections",
+  "ods:id": "https://hdl.handle.net/20.5000.1025/XXX-XXX-XXXX",
+  "ods:version": 1,
+  "dcterms:creator": {
+    "ods:type": "foaf:Person",
+    "ods:id": "XXXX-RRRRR"
+  },
+  "ltc:ObjectGroup": {
+    "ltc:collectionName": "Lepidoptera in amber Luomus.yml",
+    "ltc:description": "Ca. 400 specimens from the Baltic region. "
+  },
+  "ods:searchFilters": {
+    "filterkey": "id",
+    "filterValue": [
+      "http://id.luomus.fi/KF.11226",
+      "http://id.luomus.fi/KF.8079"
+    ]
+  }
+}

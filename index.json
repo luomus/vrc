@@ -1,6 +1,10 @@
 {
   "collections": [
     {
+      "name": "Lepidoptera in amber Luomus.yml",
+      "href": "https://luomus.github.io/vrc/vrc-05fce334594a9917acaee874d62b4eee.json"
+    },
+    {
       "name": "A Third Example Virtual Reference Collection",
       "href": "https://luomus.github.io/vrc/vrc-3c1621ebe152ebdf270f704ed6c1b6bb.json"
     },
